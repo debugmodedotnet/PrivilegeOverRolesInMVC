@@ -7,9 +7,9 @@ using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using System;
-using PrivelegeDemo.Models;
+using PrivilegeDemo.Models;
 
-namespace PrivelegeDemo
+namespace PrivilegeDemo
 {
     public partial class Startup
     {

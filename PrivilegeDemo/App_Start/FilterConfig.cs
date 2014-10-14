@@ -1,8 +1,8 @@
-﻿using PrivelegeDemo.Filters;
+﻿using PrivilegeDemo.Filters;
 using System.Web;
 using System.Web.Mvc;
 
-namespace PrivelegeDemo
+namespace PrivilegeDemo
 {
     public class FilterConfig
     {

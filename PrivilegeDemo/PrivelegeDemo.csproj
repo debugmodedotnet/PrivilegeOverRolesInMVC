@@ -11,7 +11,7 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PrivelegeDemo</RootNamespace>
+    <RootNamespace>PrivilegeDemo</RootNamespace>
     <AssemblyName>PrivilegeDemo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
@@ -161,13 +161,16 @@
     <Compile Include="AuthenticationIdentityManager.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Converter\UserConverter.cs" />
     <Compile Include="Filters\AuthorizationPrivilege .cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Priveleges\Privelege.cs" />
+    <Compile Include="Privileges\AdminPrivilege.cs" />
+    <Compile Include="Privileges\CanManageUsers.cs" />
+    <Compile Include="Privileges\Privilege.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Role.cs" />
     <Compile Include="Services\AuthorizationService.cs" />

@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
-using PrivelegeDemo.Models;
+using PrivilegeDemo.Models;
 
-namespace PrivelegeDemo.Controllers
+namespace PrivilegeDemo.Controllers
 {
     [Authorize]
     public class AccountController : Controller

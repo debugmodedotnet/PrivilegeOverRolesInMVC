@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNet.Identity;
-using PrivelegeDemo.Models;
+using PrivilegeDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace PrivelegeDemo
+namespace PrivilegeDemo
 {
     public class MvcApplication : System.Web.HttpApplication
     {

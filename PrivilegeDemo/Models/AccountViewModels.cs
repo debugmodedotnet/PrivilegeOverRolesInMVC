@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PrivelegeDemo.Models
+namespace PrivilegeDemo.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
